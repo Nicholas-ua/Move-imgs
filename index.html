@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Moving images</title>
+</head>
+<body>
+    <br>
+    <div id="part1" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="imgs/base-01.png" draggable="true"
+         ondragstart="drag(event)" id="drag1" alt="Base">
+        </div> 
+
+    <div id="wholse" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+
+    <!--<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script>
+        var Part = function (x, y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        var drawPart = function (part) {
+            var partHtml = '<img src="imgs/base-01.png">';
+            var partElement = $(partHtml);
+            partElement.css({
+                position: "absolute",
+                left: part.x,
+                top: part.y,
+            });
+
+            $("body").append(partElement);
+        };
+
+        var part_01 = new Part(50, 50);
+        drawPart(part_01);
+    </script>-->
+    <script src="index.js"></script>
+</body>
+</html>
