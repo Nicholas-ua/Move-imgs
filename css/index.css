@@ -1,18 +1,26 @@
 #part1 {
     float: left;
-  width: 410px;
-  height: 350px;
+  width: 45%;
+  /*height: 350px;*/
   margin: 10px;
   padding: 10px;
   border: 2px solid black;
 }
+#part1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #wholse {
     float: right;
-    width: 55%;
+    width: 45%;
     height: 600px;
     border: 2px solid black;
 }
-img {
-    width: 100%;
+#wholse img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
 }
