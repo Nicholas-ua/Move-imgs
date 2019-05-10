@@ -10,12 +10,12 @@
 <body>
     <br>
     <div id="part1" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <img src="imgs/base-01.png" width="410px" height="350px" draggable="true" ondragstart="drag(event)" id="drag1" alt="Base">
-        <img src="imgs/flange-02.png" width="192px" height="162px" draggable="true" ondragstart="drag(event)" id="drag2" alt="Flange">
+        <img src="imgs/base-01.png" width="410px" height="350px" draggable="true" ondragstart="drag(event)" id="drag1" onmouseup="hideDivs()" alt="Base">
+        <img src="imgs/flange-02.png" width="192px" height="162px" draggable="true" ondragstart="drag(event)" id="drag2" onmouseup="hideDivs()" alt="Flange">
         </div> 
 
-    <div id="wholse" ondrop="drop(event)" ondragover="allowDrop(event)" onmouseup="hideDivs()">
-        <img id="step01" src="imgs/step-01.png" style="display:none" alt="Step 1">
+    <div id="wholse" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="step01" src="imgs/step-01.png" style="display:none" onmouseup="hideDivs()" alt="Step 1">
     </div>
 
     <!--<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
