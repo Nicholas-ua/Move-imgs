@@ -3,6 +3,6 @@ function hideDivs()
 {
     document.getElementById('drag1').style.display = 'none';
     document.getElementById('drag2').style.display = 'none';
-    document.getElementById('step01').src = "img/step-01.png";
+    document.getElementById('step01').style.display = 'block';
     /*this.style.display = 'none';*/
 }
