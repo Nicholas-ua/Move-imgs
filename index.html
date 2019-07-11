@@ -9,13 +9,14 @@
 </head>
 <body>
     <br>
-    <div id="part1" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <img src="imgs/base-01.png" width="410px" height="350px" draggable="true" ondragstart="drag(event)" id="drag1" alt="Base">
-        <img src="imgs/flange-02.png" width="192px" height="162px" draggable="true" ondragstart="drag(event)" id="drag2" onclick="hideDivs()" alt="Flange">
-        <img src="imgs/riser-03.png" width="388px" height="482px" draggable="true" ondragstart="drag(event)" id="drag3" onclick="hideDivs2()" alt="Riser">
+    <div id="part1" > <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
+        <img src="imgs/base-01.png" width="410px" height="350px"  id="drag1" onclick="hideDivs0()" alt="Base"> <!--draggable="true" ondragstart="drag(event)"-->
+        <img src="imgs/flange-02.png" width="192px" height="162px" id="drag2" onclick="hideDivs()" alt="Flange"> <!--draggable="true" ondragstart="drag(event)"-->
+        <img src="imgs/riser-03.png" width="388px" height="482px" id="drag3" onclick="hideDivs2()" alt="Riser"> <!--draggable="true" ondragstart="drag(event)"-->
         </div> 
 
-    <div id="wholse" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div id="assembl" > <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
+        <img id="step00" src="imgs/base-01.png" style="display: none" alt="Step 0">
         <img id="step01" src="imgs/step-01.png" style="display:none" alt="Step 1">
         <img id="step02" src="imgs/step-02.png" style="display: none" alt="Step 2">
     </div>
@@ -42,7 +43,7 @@
         var part_01 = new Part(50, 50);
         drawPart(part_01);
     </script>-->
-    <script src="index.js"></script>
+    <!--<script src="index.js"></script>-->
     <script src="show.js"></script>
 </body>
 </html>
