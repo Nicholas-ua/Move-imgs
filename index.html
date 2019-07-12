@@ -10,16 +10,28 @@
 <body>
     <br>
     <div id="part1" > <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
-        <img src="imgs/base-01.png" width="410px" height="350px"  id="drag1" onclick="hideDivs0()" alt="Base"> <!--draggable="true" ondragstart="drag(event)"-->
-        <img src="imgs/flange-02.png" width="192px" height="162px" id="drag2" onclick="hideDivs()" alt="Flange"> <!--draggable="true" ondragstart="drag(event)"-->
-        <img src="imgs/riser-03.png" width="388px" height="482px" id="drag3" onclick="hideDivs2()" alt="Riser"> <!--draggable="true" ondragstart="drag(event)"-->
+        <img src="imgs/base-01.png" width=90%;  id="drag1" onclick="hideDivs0()" alt="Base"> <!--draggable="true" ondragstart="drag(event)"-->
+        <img src="imgs/flange-02.png" width=50%; id="drag2" onclick="hideDivs()" alt="Flange"> <!--draggable="true" ondragstart="drag(event)"-->
+        <img src="imgs/riser-03.png" width=85%; id="drag3" onclick="hideDivs2()" alt="Riser"> <!--draggable="true" ondragstart="drag(event)"-->
+        <img src="imgs/slab-04.png" width=85%; id="drag4" onclick="hideDivs3()" alt="Slab">
+        <img src="imgs/holder-05.png" width=75%; id="drag5" onclick="hideDivs4()" alt="Holder">
+        <img src="imgs/vert-link-06.png" width=70%; id="drag6" onclick="hideDivs5()" alt="Vertical link">
+        <img src="imgs/horiz-link-07.png" width=75%; id="drag7" onclick="hideDivs6()" alt="Horizontal link">
+        <img src="imgs/link-08.png" width=40%; id="drag8" onclick="hideDivs7()" alt="Link">
         </div> 
 
     <div id="assembl" > <!--ondrop="drop(event)" ondragover="allowDrop(event)"-->
         <img id="step00" src="imgs/base-01.png" style="display: none" alt="Step 0">
-        <img id="step01" src="imgs/step-01.png" style="display:none" alt="Step 1">
+        <img id="step01" src="imgs/step-01.png" style="display: none" alt="Step 1">
         <img id="step02" src="imgs/step-02.png" style="display: none" alt="Step 2">
+        <img id="step03" src="imgs/step-03.png" style="display: none" alt="Step 3">
+        <img id="step04" src="imgs/step-04.png" style="display: none" alt="Step 4">
+        <img id="step05" src="imgs/step-05.png" style="display: none" alt="Step 5">
+        <img id="step06" src="imgs/step-06.png" style="display: none" alt="Step 6">
+        <img id="step07" src="imgs/step-07.png" style="display: none" alt="Step 7">
     </div>
+
+    <div id="message"></div>
 
     <!--<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
     <script>
